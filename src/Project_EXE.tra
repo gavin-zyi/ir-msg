@@ -1,0 +1,26 @@
+*** Creating Trace Output File 'Project_EXE.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"api.o"'
+### List of Objects: adding '"uart.o"'
+### List of Objects: adding '"ir.o"'
+### List of Objects: adding '"ir.read.o"'
+### List of Objects: adding '"ir.write.o"'
+### List of Objects: adding '"led.o"'
+### List of Objects: adding '"sw.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M4.fp "startup.o" "main.o" "api.o" "uart.o" "ir.o" "ir.read.o" "ir.write.o" "led.o" "sw.o" --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Project_EXE.map" -o Project_EXE.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'Project_EXE.axf'
+### ADS-LD Command File: 'Project_EXE.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'Project_EXE.lnp', Handle=0x000001A0
+### Writing '.lnp' file
+### ADS-LD Command file 'Project_EXE.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
